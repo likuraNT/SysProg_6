@@ -1,0 +1,4 @@
+Simple realisation of Mutex working.
+To clone use - git clone https://github.com/likuraNT/SysProg_6
+Then create dir .build and use cmake ..
+And finally, use make all to get executive console apps.
