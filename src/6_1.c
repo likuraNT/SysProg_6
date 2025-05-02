@@ -32,11 +32,11 @@ void* search(void* arg) {
 }
 
 int main(void) {
-    printf("Enter a size of array: ");
+    fprintf(stdout, "Enter a size of array: ");
     scanf("%d", &array_size);
     array = (int*)malloc(array_size * sizeof(int));
 
-    printf("Enter the elements of an array: \n");
+    fprintf(stdout, "Enter the elements of an array: \n");
     for (int i = 0; i < array_size; ++i) {
         scanf("%d", &array[i]);
     }
